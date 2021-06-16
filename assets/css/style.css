@@ -648,7 +648,6 @@ text-align: center;
     padding-top: 6em;
 }
 .box-content{
-    text-align: center;
     margin: 0 1em;
     padding: 1.7em 0;
     font-style: normal;
@@ -669,6 +668,12 @@ color: #1A2533;
 }
 .center{
     text-align: center;
+}
+.left{
+    text-align: left!important;
+}
+.right{
+    text-align: right!important;
 }
 .content-heading{
 font-style: normal;
@@ -700,4 +705,222 @@ text-align: center;
 .section-pad{
     padding-top: 100px;
     padding-bottom: 100px;
+}
+#case-studies{
+    background-color:#1A2533;
+}
+#case-studies hr{
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  height: 2px;
+  width: 80%;
+  margin: auto;
+  margin: 20px auto;
+  border: 0;
+  padding: 0;
+}
+.quote-heading{
+font-weight: 600;
+font-size: 26px;
+line-height: 100%;
+text-align: center;
+letter-spacing: 1.75px;
+color: #FFFFFF;
+}
+.case-studies-card{
+    padding:4.5em 2.5em;
+    margin: 0 23px;
+}
+.case-studies-card p{
+    font-size: 24px;
+line-height: 130%;
+color: #7CA1BD;
+}
+.quote{
+    color: #3E6DFF;
+}
+.case-studies-link{
+    display:inline-block;
+    padding:0 1.3em;
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+}
+.case-studies-link a{
+    color: #F07F53;
+}
+/* .case-studies-link a::after{
+    color: #F07F53;
+    content: '\ea95';
+} */
+.btn-area{
+    margin-top: 80px;
+}
+.main-btn{
+    padding: 20px 70px;
+    font-size: 24px;
+line-height: 29px;
+text-align: center;
+background-color: #7CA1BD;
+border: 0;
+
+}
+.main-btn a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.news-box{
+    margin: 0 1em;
+    padding: 2em;
+}
+
+.news-box p{
+    font-size: 24px;
+line-height: 28px;
+color: rgba(26,37,51,0.7);
+}
+.news-heading-area{
+    height: 160px;
+}
+.readmore-link{
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+}
+.readmore-link a{
+    /* color: #F07F53; */
+    text-decoration: none;
+}
+.news-row{
+    max-width: 1360px;
+    margin: auto;
+    padding-top: 1em;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1A2533;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    border:0;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.form-control::-ms-expand {
+    background-color: transparent;
+    border: 0
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control::-moz-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control::-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1
+}
+.form-group {
+    margin-bottom: 2.5rem
+}
+#contact-form{
+    background-color: rgba(188, 200, 206, 1);
+}
+#contact-form input{
+    padding: 25px;
+    width: 520px;
+}
+#contact-form textarea{
+    padding: 25px;
+    width: 520px;
+    height: 128px;
+}
+.submit-btn{
+    padding: 20px 70px;
+    font-size: 20px;
+    font-weight: bold;
+line-height: 29px;
+letter-spacing: 1.6px;
+text-transform: uppercase;
+text-align: center;
+color: #FFFFFF;
+background-color: #7CA1BD;
+border: 0;
+}
+.form-layout{
+    margin: auto;
+    padding-top: 2rem;
+}
+#contact-form p{
+font-size: 30px;
+line-height: 125%;
+color: #1A2533;
+}
+footer{
+    background-color: #1A2533;
+}
+#footer img{
+    margin: auto;
+}
+.footer-link{
+    padding:1rem;
+}
+.footer-link a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+#footer hr{
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  height: 2px;
+  width: 100%;
+  margin: auto;
+  margin: 20px auto;
+  border: 0;
+  padding: 0;
+}
+p.copyright{
+    font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
 }
