@@ -1,0 +1,23 @@
+[
+    {
+      "description": "We use live data from mainnet to power our optimization and risk models ",
+      "image": "assets/images/solutions/solution-1.svg",
+      "title":"Integrate your protocol"
+    },
+    {
+        "description": "Continuously determine if there is a need to adjust parameters to a scientifically chosen value.",
+        "image": "assets/images/solutions/solution-2.svg",
+        "title":"Run simulations"
+    },
+    {
+        "description": "Automatically push parameter optimizations to the blockchain.",
+        "image": "assets/images/solutions/solution-3.svg",
+        "title":"Execute changes"
+    },
+    {
+        "description": "Kickoff and message new financial optimizations via community discussion.",
+        "image": "assets/images/solutions/solution-4.svg",
+        "title":"Identify risk/opportunities"
+    }
+  ]
+  

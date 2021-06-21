@@ -1,0 +1,33 @@
+[
+    {
+      "description": "Optimizing collateral factors",
+      "image": "assets/images/teams/compound-logo.svg",
+      "url": "#"
+    },
+    {
+        "description": "Calibrating Risk Parameters",
+        "image": "assets/images/teams/aave.svg",
+        "url": "#"
+    },
+    {
+        "description": "Dynamic strategy risk management",
+        "image": "assets/images/teams/vesper-logo.svg",
+        "url": "#"
+    },
+    {
+        "description": "Stress-Testing Key Risk Parameters",
+        "image": "assets/images/teams/acala.svg",
+        "url": "#"
+    },
+    {
+        "description": "Managing trading fees for over 50 pools",
+        "image": "assets/images/teams/balancer.svg",
+        "url": "#"
+    },
+    {
+        "description": "Setting token emissions for XX pools",
+        "image": "assets/images/teams/sushiwap.svg",
+        "url": "#"
+    }
+  ]
+  

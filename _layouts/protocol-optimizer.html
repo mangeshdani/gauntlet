@@ -1,0 +1,136 @@
+---
+layout: default
+---
+
+<div class="proto-opt">
+    <div class="container">
+      <div class="row">
+        <div class="column-12 column-md-7 column-lg-6">
+          <h2>{{ page.title }}</h2>
+          <div class="banner-content">
+            <p>{{ page.content | markdownify | strip_html}}</p>
+        </div>
+        <div class="column-12 column-md-7 column-lg-6 box-row">
+            <p style="font-weight: 600;">Trusted by Protocol Teams and DAO’s </p>
+        </div>
+        <!-- -->
+        {% if site.data.teams %}
+<div class="team-section">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+
+      {% for team in site.data.teams %}
+      <div class="column-2 column-md-2 column-lg-2 mb-2">
+        <div class="team">
+          {% if team.image %}
+          <div class="team-image"><img alt="{{ team.title }} logo" src="{{ team.image | relative_url }}" /></div>
+          {% endif %}
+          <p class="team-content">{{ team.description }}</p>
+          <a class="team-link" href="{{ team.url | relative_url }}">Blog Post</a>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+        <!--  -->
+      </div>
+    </div>
+  </div>
+</div>
+<div id="solution">
+    <div class="row">
+        <div class="container center section-pad">
+
+            <h2 class="content-heading dark">Our Solution</h2>
+            <p class="content-body primary section-2-body-width">Gauntlet's Protocol Optimizer maximizes capital efficiency, reduces risk, and gives confidence to you and your community that key parameters are mathematically optimal.</p>
+            <div class="row box-row">
+               
+                <!-- -->
+        {% if site.data.solutions %}
+        
+          <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+            <div class="row justify-content-center">
+        
+              {% for solution in site.data.solutions %}
+              <div class="column-6 column-md-6 column-lg-6">
+                <div  class="solution-box" style="background-color:rgba(135,171,197,0.1);">
+                  {% if solution.image %}
+                  <div class="solution-image"><img alt="{{ solution.title }}" src="{{ solution.image | relative_url }}" /></div>
+                  {% endif %}
+                  <h4 class="box-heading">{{ solution.title }}</h4>
+                  <p class="solution-content">{{ solution.description }}</p>
+                </div>
+              </div>
+              {% endfor %}
+        
+            </div>
+          </div>
+        
+        {% endif %}
+                <!--  -->
+
+            </div>
+            
+                <div class="btn-area">
+                    <button class="main-btn"><a href="">See it in Action</a></button>
+                </div>
+            
+        </div>
+    </div>
+</div>
+<div id="risk-management" class="dark-bg pb-4">
+<div class="row box-row">
+    <div class="container">
+        <h2 class="content-heading light">Risk Management</h2>
+        <div class="row">
+            <div class="column-6 column-md-6 column-lg-6 pr-4">
+                <p class="left">Optimize key risk parameters in your network to ensure that your protocol is secure in catastrophic market events while maximizing Capital Efficiency.</p>
+                <ul>
+                    <li>
+                        Ensure your collateral is safe against Black Thursday level Market events
+                    </li>
+                    <li>
+                        Get a holistic view of how your LTV, Liquidation fees and other parameters interact with each other
+                    </li> 
+                    <li> 
+                        key recommendations on-chain or directly to your team.
+                    </li>
+                </ul>
+            </div>
+            <div class="column-6 column-md-6 column-lg-6 pl-4">
+                <img src="{{ site.baseurl }}/assets/images/risk-management.svg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div id="reward" class="pb-4">
+    <div class="row box-row">
+        <div class="container">
+            <h2 class="content-heading dark">Rewards & Incentives</h2>
+            <div class="row">
+                <div class="column-6 column-md-6 column-lg-6 pr-4">
+                    <img src="{{ site.baseurl }}/assets/images/rewards.svg" alt="">
+                </div>
+                <div class="column-6 column-md-6 column-lg-6 pl-4">
+                    
+                    <p class="left dark">Ensure your capital is being allocated optimally to maximize returns for Stakeholders and LPs.</p>
+                    <ul class="dark">
+                        <li>
+                            Continuously optimize fees and incentives in your protocol to grow your TVL
+                        </li>
+                        <li>
+                            Monitor orbitrage and grow organic volume in your pools
+                        </li> 
+                        <li> 
+                            Align incentives for LPs and traders to grow user base
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

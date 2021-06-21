@@ -179,8 +179,19 @@ body {
     padding: 13em 0 7em 0;
     text-align: center;
 }
+.proto-opt {
+    background-attachment: scroll, fixed;
+    background-color: #1A2533;
+    background-image: url("../images/illustration.svg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 1359px;
+    color: #fff;
+    padding: 13em 0 7em 0;
+    text-align: center;
+}
 
-#banner h2 {
+h2 {
     
     font-family: inherit;
     font-style: normal;
@@ -191,7 +202,7 @@ body {
     color: #FFFFFF;
 }
 
-#banner p {
+p {
 font-style: normal;
 font-weight: normal;
 font-size: 2em;
@@ -604,7 +615,8 @@ text-align: center;
     width: 100%;
     min-height: 1px;
     padding-right: 0px;
-    padding-left: 0px
+    padding-left: 0px;
+    box-sizing: border-box;
 }
 .column {
     -ms-flex-preferred-size: 0;
@@ -964,4 +976,81 @@ p.copyright{
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+}
+p.team-content{
+    font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1.75px;
+
+color: #FFFFFF;
+
+opacity: 0.7;
+}
+.team-section{
+    padding: 1rem 1rem;
+    margin-bottom: 5rem;
+background: rgba(188,200,206,0.1);
+border: 2px solid #29384A;
+}
+.team{
+    padding: 1rem;
+}
+.team-content{
+    padding-top:1rem;
+    padding-bottom: 4rem;
+    height: 50px;
+}
+p.solution-content{
+    font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #1A2533;
+}
+.solution-content{
+    max-height: max-content;
+}
+.team-link{
+    font-weight: 500;
+font-size: 14px;
+line-height: 36px;
+text-align: center;
+color: #F07F53;    
+}
+.solution-box{
+    padding: 2rem 2rem;
+    margin: 5rem 5rem;
+    max-height: 285px;
+    height: 100%;
+}
+.solution-image{
+    height: 100%;
+    max-height: 65px;
+}
+.dark-bg{
+    background-color:#1A2533;
+}
+ul{
+    font-size: 30px;
+    line-height: 50px;    
+    color: #FFFFFF;
+  }
+.ml-2{
+    margin-left: 2rem;
+}
+.mr-2{
+    margin-right: 2rem;
+}
+.pl-4{
+    padding-left: 4rem;
+}
+.pr-4{
+    padding-right: 4rem;
+}
+.pt-4{
+    padding-top: 4rem;
+}
+.pb-4{
+    padding-bottom: 4rem;
 }
